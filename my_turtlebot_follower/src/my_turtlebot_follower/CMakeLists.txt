@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(turtlebot_follower)
+project(my_turtlebot_follower)
 
 ## Find catkin macros and libraries
 find_package(catkin REQUIRED COMPONENTS nodelet pcl_ros roscpp visualization_msgs turtlebot_msgs dynamic_reconfigure)
@@ -44,7 +44,7 @@ target_link_libraries(${PROJECT_NAME}
 #############
 
 ## Mark executables and/or libraries for installation
-install(TARGETS ${PROJECT_NAME} 
+install(TARGETS ${PROJECT_NAME}
   ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}
   RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
